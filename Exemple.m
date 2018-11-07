@@ -1,6 +1,2 @@
-function y = average(x)
-if ~isvector(x)
-    error('Input must be a vector')
-end
-y = sum(x)/length(x); 
-end
+x = [1 2 3 4]
+mean_x = average(x)
